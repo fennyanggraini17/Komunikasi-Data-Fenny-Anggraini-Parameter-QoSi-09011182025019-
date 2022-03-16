@@ -1,43 +1,43 @@
 1. Throughput 
-	 Analisis
-	 Jumlah Bytes : Time Span =  Hasil Bytes
-	 20347824			: 77.342    =  263.088 Bytes/s 
-														=  263,088KB/s (Converted to KB)
+	Analisis
+	Jumlah Bytes : Time Span 	=  Hasil Bytes
+	20347824     : 77.342    	=  263.088 Bytes/s 
+					=  263,088KB/s (Converted to KB)
                          		=  263,088 x 8 (Converted to bits)
-														=  2.104,704 kb/s
+					=  2.104,704 kb/s
 	
 2. Packet loss
 	 Analisis 
 	 Untuk mencari packet digunakan rumus sebagai berikut :
-	 Packet diterima 	  			= Paket dikirim - Paket tidak terkirim
-                						= 21061 - 1
-                						= 21060
+	 Packet diterima 	  	= Paket dikirim - Paket tidak terkirim
+                			= 21061 - 1
+                			= 21060
 		 
-	 Packet Loss 		  				= [((Paket dikirm - Paket diterima) : Paket dikirim) x 100]
-														= (21061 - 21060) : 21061 x 100
-      											= ( 1 : 21061) x 100
-														= 0,00474811263
-     												= 0,0
+	 Packet Loss 		  	= [((Paket dikirm - Paket diterima) : Paket dikirim) x 100]
+					= (21061 - 21060) : 21061 x 100
+      					= ( 1 : 21061) x 100
+					= 0,00474811263
+     					= 0,0
 												
 3. Delay
- 	 Time 1 									= Waktu awal
-	 Time 2 									= Waktu awal yang dimulai setelah 0
-	 Delay 										= Time 1 - Time 2
+ 	 Time 1 			= Waktu awal
+	 Time 2				= Waktu awal yang dimulai setelah 0
+	 Delay 				= Time 1 - Time 2
 	 
-	 Total Delay 							= 77,342494 
-	 Rata-rata Delay					= Total Delay : Jumlah Paket
-														= 77,342494   : 21061 
-														= 0,003672309 ms
+	 Total Delay 			= 77,342494 
+	 Rata-rata Delay		= Total Delay : Jumlah Paket
+					= 77,342494   : 21061
+					= 0,003672309 ms
 												
 4. Jitter
-	 Delay 1 									= Nilai Delay - Nilai Delay setelahnya
-	 Delay 2									= Semua nilai delay, kecuali nilai delay pertama
-	 Jitter 									= Delay 2 - Delay 1
+	 Delay 1 			= Nilai Delay - Nilai Delay setelahnya
+	 Delay 2			= Semua nilai delay, kecuali nilai delay pertama
+	 Jitter 			= Delay 2 - Delay 1
 	 
-	 Total Jitter							= 0,441951
-	 Rata - rata jitter				= Total jitter : Jumlah paket
-														= 0,441951 : 21061
-														= 2.098,43 ms
+	 Total Jitter			= 0,441951
+	 Rata - rata jitter		= Total jitter : Jumlah paket
+					= 0,441951 : 21061
+					= 2.098,43 ms
 
 
 
