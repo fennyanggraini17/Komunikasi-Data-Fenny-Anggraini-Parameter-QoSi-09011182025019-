@@ -1,1 +1,0 @@
-# Komunikasi-Data-Fenny-Anggraini-Parameter-QoSi-09011182025019-
